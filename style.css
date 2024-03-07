@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    /* border: 1px solid red; */
+    font-family: 'Roboto';
+    margin: 0px;
+}
+
+body {
+    background-image: url(static/background.jpg);
+    background-size: 100em;
+}
+
+h3 {
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em;
+}
+
+.header-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em;
+}
+
+.image-me-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em;
+}
+
+.img-1 {
+    margin: 2em;
+    display: flex;
+    max-width: 20em;
+    box-shadow: 3px 3px 25px;
+    border-radius: 25px;
+}
+
+.about-kids {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em;
+}
+
+.img-2 {
+    margin: 2em;
+    display: flex;
+    max-width: 20em;
+    box-shadow: 3px 3px 25px;
+    border-radius: 25px;
+}
+
+.divider {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .divider::before, .divider::after {
+    flex: 1;
+    content: '';
+    padding: 2px;
+    background-color: gray;
+    margin: 30px;
+  }
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 2em;
+}
+
+.sign-up-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+}
+.form-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+    border: 1px solid black;
+    padding: 2em;
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.form-card input {
+    padding: 5px;
+}
+
+.form-card #button {
+    padding: 10px;
+    background-color: rgb(255, 213, 87);
+}
+
+.back-button {
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: black;
+}
